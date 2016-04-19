@@ -1,9 +1,9 @@
 # Islandora CLAW: Fedora Docker Image
 
-[![Docker Stars](https://img.shields.io/docker/stars/islandora-claw/fedora.svg)](https://hub.docker.com/r/islandora-claw/fedora/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/islandora-claw/fedora.svg)](https://hub.docker.com/r/islandora-claw/fedora/)
-[![Image Size](https://img.shields.io/imagelayers/image-size/islandora-claw/fedora/latest.svg)](https://imagelayers.io/?images=islandora-claw/fedora:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/islandora-claw/fedora/latest.svg)](https://imagelayers.io/?images=islandora-claw/fedora:latest)
+[![Docker Stars](https://img.shields.io/docker/stars/islandora/claw-fedora.svg)](https://hub.docker.com/r/islandora/claw-fedora/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/islandora/claw-fedora.svg)](https://hub.docker.com/r/islandora/claw-fedora/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/islandora/claw-fedora/latest.svg)](https://imagelayers.io/?images=islandora/claw-fedora:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/islandora/claw-fedora/latest.svg)](https://imagelayers.io/?images=islandora/claw-fedora:latest)
 
 ### Introduction
 
@@ -24,7 +24,7 @@ Based on the
 
 **Example:**
 ```bash
-docker build --build-arg "FEDORA_VERSION=4.5.0" -t islandora-claw/fedora .
+docker build --build-arg "FEDORA_VERSION=4.5.0" -t islandora/claw-fedora .
 ```
 
 ### Environment Variables
@@ -38,7 +38,7 @@ Please consult the
 
 **Example (foreground, port 8080, auto-remove):**
 ```bash
-docker run --rm -ti -p 8080:8080 -e "TOMCAT_ADMIN_PASSWORD=your_super_secure_password" islandora-claw/fedora
+docker run --rm -ti -p 8080:8080 -e "TOMCAT_ADMIN_PASSWORD=your_super_secure_password" islandora/claw-fedora
 ```
 
 ### Commands

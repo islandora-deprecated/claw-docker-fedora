@@ -48,10 +48,6 @@ For convenience a number of commands are provided in the [commands](/commands) f
 | foreground | [port] [admin password] | 8080 random | Start fedora in the foreground with the given port and password. |
 | background | [port] [admin password] | 8080 random | Start fedora in the background with the given port and password. |
 
-## Notes
-
-Eventually we will support running on either OpenJDK or Oracle JDK, but for the moment it only supports Open JDK.
-
 ## Maintainers/Sponsors
 
 * UPEI

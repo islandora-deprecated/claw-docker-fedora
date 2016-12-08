@@ -41,7 +41,7 @@ docker build --build-arg "FEDORA_VERSION=4.5.0" -t islandora/claw-fedora .
 | CATALINA_OPTS | no       | -Dfcrepo.home=/mnt/fedora-data |
 
 Please consult the
-[parent image](https://github.com/Islandora-CLAW/docker-tomcat).
+[parent image](https://github.com/Islandora-CLAW/claw-docker-tomcat).
 
 **Example (foreground, port 8080, auto-remove):**
 ```bash

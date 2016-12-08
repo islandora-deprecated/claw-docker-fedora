@@ -17,7 +17,7 @@ Since Islandora CLAW has moved development to Drupal 8, our Docker images **no l
 
 Defines the Fedora Docker Image. 
 
-Based on the [Tomcat Docker Image](https://github.com/Islandora-CLAW/docker-tomcat).
+Based on the [Tomcat Docker Image](https://github.com/Islandora-CLAW/claw-docker-tomcat).
 
 ### Includes
 
